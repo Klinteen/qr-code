@@ -1,0 +1,48 @@
+
+
+body{
+    background-color: #D5E1EF;
+    width: 95%;
+    height: 98vh;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image{
+    background-color: white;
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text{
+    padding: 10px;
+    margin: 5px;
+}
+
+.text p{
+    font-weight: 200;
+    line-height: 1.2;
+    font-weight: 10px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width:640px) {
+    
+    body{
+        height: 100%;
+    }
+    
+    .image{
+        width: 80%;
+        top: 60px;
+    }
+}
